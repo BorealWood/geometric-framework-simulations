@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+type: software
+title: "Geometric Framework Simulations: Computational Validation of Standard Model Predictions"
+version: 1.0.0
+date-released: 2025-12-23
+repository-code: "https://github.com/[username]/geometric-framework-simulations"
+license: CC-BY-4.0
+authors:
+  - family-names: "Solomon"
+    given-names: "Eyasu"
+    orcid: "https://orcid.org/0009-0009-3846-3485"
+keywords:
+  - theoretical physics
+  - golden ratio
+  - Standard Model
+  - particle physics
+  - cosmology
+  - computational physics
+preferred-citation:
+  type: article
+  title: "Geometric Interpretations of the Standard Model: From Golden Ratio to Fundamental Constants"
+  authors:
+    - family-names: "Solomon"
+      given-names: "Eyasu"
+  year: 2025
+  journal: "arXiv preprint"
+  identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2025.XXXXX"
