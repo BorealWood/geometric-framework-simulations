@@ -127,7 +127,7 @@ print(f"Mean Preservation Ratio: {mean_ratio:.4f}")
 print(f"Final Black Hole Mass: {M_BH_final:.2f} solar masses")
 
 if preserved_count == len(particles):
-    print("\n[OK] ALL INFORMATION PRESERVED: Holographic principle validated")
+    print("\n[OK] Information conservation consistent with holographic principle")
     print("  Black hole information paradox resolved!")
 elif preserved_count >= len(particles) * 0.8:
     print("\n[!] MOSTLY PRESERVED: Framework mostly correct")

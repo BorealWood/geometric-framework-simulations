@@ -205,7 +205,7 @@ print(f"Phi(awake) / Phi(asleep) = {phi_awake / phi_asleep:.2f}x")
 # IIT predicts Phi(awake) >> Phi(anesthetized)
 # Info-resistance predicts: Low resistance -> High Phi
 if phi_awake > phi_anesthetized * 3:
-    print("\n[OK] PREDICTION VALIDATED: Consciousness correlates with integrated information")
+    print("\n[OK] Consciousness metric correlates with integrated information measure")
     print("  Framework explains: Anesthesia increases resistance -> Phi decreases -> consciousness lost")
 elif phi_awake > phi_anesthetized * 1.5:
     print("\n[!] PARTIAL VALIDATION: Trend correct but weaker than expected")

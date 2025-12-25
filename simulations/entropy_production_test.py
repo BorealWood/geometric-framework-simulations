@@ -194,6 +194,6 @@ If information-resistance framework is correct:
 
 Current Results:
 - Correlation: {correlation:.4f}
-- {'[OK] Framework validated' if correlation > 0.95 else '[!] Framework needs refinement'}
+- {'[OK] Strong correlation observed' if correlation > 0.95 else '[!] Framework requires refinement'}
 - Suggests {'thermodynamics IS information dynamics' if correlation > 0.95 else 'relationship exists but incomplete'}
 """)

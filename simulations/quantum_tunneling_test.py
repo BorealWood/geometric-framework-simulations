@@ -1,6 +1,6 @@
 """
-Simulation 1: Quantum Tunneling as Information Resistance Breakthrough
-Tests if information-resistance framework predicts tunneling probability
+Simulation: Quantum Tunneling Probability
+Compares information-resistance framework predictions with quantum mechanics
 """
 
 import numpy as np

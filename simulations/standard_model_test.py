@@ -233,7 +233,7 @@ print(f"Mean Error: {mean_error:.2f}%")
 print(f"Max Error: {max_error:.2f}%")
 
 if tests_passed == total_tests:
-    print("\n[OK] FRAMEWORK VALIDATED: Reproduces Standard Model predictions")
+    print("\n[OK] Framework predictions consistent with Standard Model")
 elif tests_passed >= total_tests * 0.7:
     print("\n[!] PARTIAL VALIDATION: Framework captures major SM features")
 else:
@@ -297,7 +297,7 @@ ax.grid(True, alpha=0.3, which='both')
 # Plot 4: Success summary pie chart
 ax = axes[1, 1]
 success_counts = [tests_passed, total_tests - tests_passed]
-labels = [f'Validated\n({tests_passed})', f'Needs Work\n({total_tests - tests_passed})']
+labels = [f'Agreement\n({tests_passed})', f'Refinement Needed\n({total_tests - tests_passed})']
 colors_pie = ['green', 'orange']
 explode = (0.1, 0)
 

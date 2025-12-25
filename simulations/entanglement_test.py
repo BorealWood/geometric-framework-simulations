@@ -97,7 +97,7 @@ print(f"Correlation between QM and Info-R predictions: {corr_coef:.6f}")
 print(f"Mean absolute error: {mean_error:.6f}")
 
 if corr_coef > 0.9999:
-    print("[OK] PERFECT MATCH: Zero-resistance channel = QM entanglement")
+    print("[OK] Zero-resistance channel model consistent with QM entanglement")
 elif corr_coef > 0.95:
     print("[!] STRONG MATCH: Framework mostly explains entanglement")
 else:
@@ -131,7 +131,7 @@ print(f"Tsirelson Bound: {chsh_results[0]['chsh_ir']:.4f} / 2.828")
 print(f"Correlation with QM: {corr_coef:.6f}")
 
 if corr_coef > 0.9999 and chsh_results[0]['chsh_ir'] > 2.8:
-    print("\n[OK] FRAMEWORK VALIDATED: Zero-resistance channel explains entanglement")
+    print("\n[OK] Zero-resistance channel model shows agreement with entanglement data")
 elif corr_coef > 0.95:
     print("\n[!] PARTIAL VALIDATION: Framework captures entanglement physics")
 else:
