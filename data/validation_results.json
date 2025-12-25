@@ -1,0 +1,19 @@
+{
+  "qcd_running": {
+    "chi2_per_dof": 5.560260236544909,
+    "num_points": 16,
+    "status": "marginal"
+  },
+  "baryon_masses": {
+    "gell_mann_okubo": 126.2728728300001,
+    "status": "failed"
+  },
+  "fine_structure": {
+    "predicted": 137.03601545329084,
+    "experimental": 137.03599905950063,
+    "n_sigma": 1309.7405917972403,
+    "status": "failed"
+  },
+  "tests_passed": 2,
+  "tests_total": 5
+}
